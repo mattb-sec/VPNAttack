@@ -36,8 +36,11 @@ This step shows a screenshot of my favorite scam email from this lab. It’s the
 
 * * *
 To:       Charlie Roberts <croberts@beingattacked.com>
-From:     Susan Dougherty <susand@innocentbystander.com>      
-Date:     Sunday, March 29, 2020                    
+
+From:     Susan Dougherty <susand@innocentbystander.com>   
+
+Date:     Sunday, March 29, 2020     
+
 Subject:  A favor?                               
 
 >Hello Robert,
