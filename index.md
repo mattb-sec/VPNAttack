@@ -83,7 +83,3 @@ Finally, I think the third best way to access VPN information would be to use th
 ## Tools and Commands
 
 From the Wireshark capture, the IP of the VPN server is 172.30.0.15 and the IP of the VPN client is 172.30.0.22.
-
-## Challenge Exercise
-
-This would be a difficult job to do and would probably involve the theft of one of Pat’s devices. Like in the lab, you could find a way to steal Pat’s phone and download all his emails and information. This will give you Pat’s passphrase for the Booster Vault. Then, like the lab, you could use social engineering to fake an email to Audre and Stacey so that they can each change their VPN passwords to something that you are able to know. Now that you have the passwords, you could use IP spoofing to spoof the three IP addresses and enter their respective passwords.
