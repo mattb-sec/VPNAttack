@@ -35,7 +35,7 @@ This step shows a screenshot of my favorite scam email from this lab. It’s the
 ### Drafting my very own phishing email
 
 * * *
-| head1   |  head2    |
+|    |      |
 |:-------------|:--------------------|
 | To:          | Charlie Roberts <croberts@beingattacked.com>
 | From: | Susan Dougherty <susand@innocentbystander.com>      
