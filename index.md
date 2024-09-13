@@ -35,12 +35,10 @@ This step shows a screenshot of my favorite scam email from this lab. It’s the
 ### Drafting my very own phishing email
 
 * * *
-|    |      |
-|:-------------|:--------------------|
-| To:          | Charlie Roberts <croberts@beingattacked.com>
-| From: | Susan Dougherty <susand@innocentbystander.com>      
-| Date:           | Sunday, March 29, 2020                    
-| Subject:           | A favor?                               
+To:       Charlie Roberts <croberts@beingattacked.com>
+From:     Susan Dougherty <susand@innocentbystander.com>      
+Date:     Sunday, March 29, 2020                    
+Subject:  A favor?                               
 
 >Hello Robert,
 I hope this message finds you well. I regret to inform you that at the moment, we are terribly far from reaching our donation goals for the year. Due to the circumstances this year, our afflicted children have never been in greater need of treatment and care. That is why I am writing to you today. I am reaching out to the CSCDS staff and asking for any donations in order to help our situation.
