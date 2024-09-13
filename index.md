@@ -44,7 +44,8 @@ This step shows a screenshot of my favorite scam email from this lab. It’s the
 
 >Hello Robert,
 I hope this message finds you well. I regret to inform you that at the moment, we are terribly far from reaching our donation goals for the year. Due to the circumstances this year, our afflicted children have never been in greater need of treatment and care. That is why I am writing to you today. I am reaching out to the CSCDS staff and asking for any donations in order to help our situation.
-Click here to go to our donations page. From there, you will be asked to select the amount you wish to donate and enter your payment information. As you know, our servers are verified, and any transformation of information is totally secure.
+>
+Click here (this is where the fake link is) to go to our donations page. From there, you will be asked to select the amount you wish to donate and enter your payment information. As you know, our servers are verified, and any transformation of information is totally secure.
 Thank you for your time and please remember that any amount helps!
 Your truly,
 >	Susan Dougherty
