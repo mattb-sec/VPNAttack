@@ -1,5 +1,5 @@
 title:  Attacking a Virtual Private Network
-description: A first look at social engineering and phishing attacks
+description: A first look at social engineering and on-path (man-in-the-middle) attacks
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
