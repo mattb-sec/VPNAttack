@@ -50,88 +50,40 @@ Thank you for your time and please remember that any amount helps!
 Your truly,
 >	Susan Dougherty
 
+# Applied Learning
 
+## On-Path (Man-in-the-Middle) Attack
 
+### Screen capture of VPN IP address
 
+This step shows that the victim’s computer is connected to the legitimate VPN. In doing so, the Wireshark running on the hacker’s machine can capture the victim’s internet traffic.
 
+<p align="center">
+  <img width="980" height="560" src="assets/fig4.png">
+</p>
 
+### Acquire the victim's password
 
-## Header 2
+Now that the victim is connected to the VPN (and disconnected), the Wireshark running on the hacker’s computer can capture the transaction that took place as the user was connecting to the VPN. By using the program chaps2sleap.py, a wordlist file is used to crack the VPN’s password.  The screenshot below shows the result of this including the VPN’s password.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+<p align="center">
+  <img width="980" height="560" src="assets/fig5.png">
+</p>
 
+# Lab Challenge and Analysis
 
-###### Header 6
+## Analysis and Discussion
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+Personally, I believe there is no better way to get information from someone than social engineering. Computers are made to be infallible machines with tight security and seamless data transfers. A human is not. Humans have flaws and innate psychological responses that can be exploited. Among these are people’s desires to be nice, helpful, sympathetic, and trusting. Moreover, unlike computers, humans have emotions that can cloud their judgement. Far too often, phishing emails, especially aimed at the right person, can get the job done. 
 
-### There's a horizontal rule below this.
+Of course, if you cannot get the information of your target, the next best thing would be to buy that information off a professional hacker or data miner. This would be easier in terms of workload for the attacker, but this may end up being very expensive. You would also have to expose your machine to the dark web which can lead to all sorts of trouble.
 
-* * *
+Finally, I think the third best way to access VPN information would be to use the man-in-the-middle attack. The process seems straightforward although the only trouble would be to acquire your victim’s IP address. The difficulty of this can vary greatly.
 
-### Here is an unordered list:
+## Tools and Commands
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+From the Wireshark capture, the IP of the VPN server is 172.30.0.15 and the IP of the VPN client is 172.30.0.22.
 
-### And an ordered list:
+## Challenge Exercise
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+This would be a difficult job to do and would probably involve the theft of one of Pat’s devices. Like in the lab, you could find a way to steal Pat’s phone and download all his emails and information. This will give you Pat’s passphrase for the Booster Vault. Then, like the lab, you could use social engineering to fake an email to Audre and Stacey so that they can each change their VPN passwords to something that you are able to know. Now that you have the passwords, you could use IP spoofing to spoof the three IP addresses and enter their respective passwords.
